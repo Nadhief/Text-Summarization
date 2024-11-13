@@ -4,7 +4,7 @@ Proyek ini adalah implementasi sederhana untuk membuat ringkasan dari sebuah art
 
 # Power Poin Hasil Eksplorasi
 
-https://www.canva.com/design/DAGWVxH4qgk/1WmlMN6EVydHzEzSvb9aNw/view?utm_content=DAGWVxH4qgk&utm_campaign=designshare&utm_medium=link&utm_source=editor
+https://www.canva.com/design/DAGWVxH4qgk/PqXKA0y2swssjpfOlU_q9g/edit?utm_content=DAGWVxH4qgk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Kode Program yang digunakan
 
