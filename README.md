@@ -2,6 +2,10 @@
 
 Proyek ini adalah implementasi sederhana untuk membuat ringkasan dari sebuah artikel secara otomatis menggunakan model Recurrent Neural Network (RNN) dan Long Short Term Memory (LSTM). Model dilatih pada data berita untuk membuat ringkasan dari teks artikel. Proyek ini dijalankan di local dan memanfaatkan dataset dari huging face https://huggingface.co/datasets/SEACrowd/liputan6. 
 
+# Power Poin Hasil Eksplorasi
+
+https://www.canva.com/design/DAGWVxH4qgk/1WmlMN6EVydHzEzSvb9aNw/view?utm_content=DAGWVxH4qgk&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
 # Kode Program yang digunakan
 
 - summaryindo.ipynb (500 data train, 100 data val, 10.000 vocab_size, bidirectional)
