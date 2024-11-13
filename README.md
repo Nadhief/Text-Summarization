@@ -1,6 +1,13 @@
 # Text Summarization using Simple RNN and LSTM
 
-Proyek ini adalah implementasi sederhana untuk membuat ringkasan dari sebuah artikel secara otomatis menggunakan model Recurrent Neural Network (RNN) dan Long Short Term Memory (LSTM). Model dilatih pada data berita untuk membuat ringkasan dari teks artikel. Proyek ini dijalankan di local dan memanfaatkan dataset dari huging face https://huggingface.co/datasets/SEACrowd/liputan6.
+Proyek ini adalah implementasi sederhana untuk membuat ringkasan dari sebuah artikel secara otomatis menggunakan model Recurrent Neural Network (RNN) dan Long Short Term Memory (LSTM). Model dilatih pada data berita untuk membuat ringkasan dari teks artikel. Proyek ini dijalankan di local dan memanfaatkan dataset dari huging face https://huggingface.co/datasets/SEACrowd/liputan6. 
+
+# Kode Program yang digunakan
+
+- summaryindo.ipynb (500 data train, 100 data val, 10.000 vocab_size, bidirectional)
+- summaryindolstm.ipynb (500 data train, 100 data val, 10.000 vocab_size, bidirectional)
+- summaryindoRnnSd.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size, single directional)
+- summaryindolstm copy.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size, single directional)
 
 ## Table of Contents
 
