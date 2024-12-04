@@ -1,4 +1,4 @@
-# Text Summarization using Simple RNN and LSTM
+# Text Summarization using Simple RNN, LSTM, dan Transformers
 
 Proyek ini adalah implementasi sederhana untuk membuat ringkasan dari sebuah artikel secara otomatis menggunakan model Recurrent Neural Network (RNN) dan Long Short Term Memory (LSTM). Model dilatih pada data berita untuk membuat ringkasan dari teks artikel. Proyek ini dijalankan di local dan memanfaatkan dataset dari huging face https://huggingface.co/datasets/SEACrowd/liputan6. 
 
@@ -8,10 +8,12 @@ https://www.canva.com/design/DAGWVxH4qgk/PqXKA0y2swssjpfOlU_q9g/edit?utm_content
 
 # Kode Program yang digunakan
 
-- summaryindo.ipynb (500 data train, 100 data val, 10.000 vocab_size, bidirectional)
-- summaryindolstm.ipynb (500 data train, 100 data val, 10.000 vocab_size, bidirectional)
-- summaryindoRnnSd.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size, single directional)
-- summaryindolstm copy.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size, single directional)
+- summaryindo.ipynb (500 data train, 100 data val, 10.000 vocab_size)
+- summaryindolstm.ipynb (500 data train, 100 data val, 10.000 vocab_size)
+- summaryindoRnnSd.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size)
+- summaryindolstm copy.ipynb (10.000 data train, 2.000 data val, 20.000 vocab_size)
+- summaryindotrans.ipynb (500 data train, 100 data val, 30522 vocab_size)
+- summaryindotrans copy (10000 data train, 2000 data val, 30522 vocab_size)
 
 ## Table of Contents
 
@@ -63,6 +65,24 @@ Ringkasan teks otomatis (text summarization) adalah teknik Natural Language Proc
 
 - **Prediction Function**:
   - Membuat fungsi prediksi yang akan menghasilkan ringkasan dari input teks pengguna. Proses ini mencakup langkah preprocessing yang sama, kemudian model LSTM terlatih akan digunakan untuk menghasilkan ringkasan.
+
+- **Evaluation with BLEU Score**:
+  - Setelah melatih model, evaluasi kinerja model dengan *BLEU score* menggunakan *validation set*.
+
+
+*Transformers:*
+- **Data Preprocessing**: 
+  - Mengonversi teks menjadi *sequences* numerik menggunakan tokenizer, dan menerapkan *padding* agar semua *sequences* memiliki panjang yang sama. 
+  - Pisahkan data menjadi *training* dan *validation set* untuk proses evaluasi selama pelatihan.
+
+- **Model Transformers**:
+  
+- **Training and Evaluation**:
+  - Melatih model menggunakan data *training set* dan memantau *Loss* serta *Accuracy* pada *validation set*.
+  - Visualisasikan *Loss* dan *Accuracy* untuk memastikan model mengalami proses pelatihan yang stabil.
+
+- **Prediction Function**:
+  - Membuat fungsi prediksi yang akan menghasilkan ringkasan dari input teks pengguna. Proses ini mencakup langkah preprocessing yang sama, kemudian model Transformers terlatih akan digunakan untuk menghasilkan ringkasan.
 
 - **Evaluation with BLEU Score**:
   - Setelah melatih model, evaluasi kinerja model dengan *BLEU score* menggunakan *validation set*.
